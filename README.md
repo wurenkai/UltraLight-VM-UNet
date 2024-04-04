@@ -90,8 +90,7 @@ python test.py
 - After testing, you could obtain the outputs in './results/' </br>
 
 **4. Additional information.** 
-- In addition, the PVM Layer can be very simply embedded into any model to reduce the overall parameters of the model.
-
+- PVM Layer can be very simply embedded into any model to reduce the overall parameters of the model.
 
 ## Citation
 If you find this repository helpful, please consider citing: </br>
