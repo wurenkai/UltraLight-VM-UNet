@@ -75,5 +75,16 @@ python test.py
 ```
 - After testing, you could obtain the outputs in './results/' </br>
 
+## Citation
+If you find this repository helpful, please consider citing: </br>
+```
+@article{wu2024ultralight,
+  title={UltraLight VM-UNet: Parallel Vision Mamba Significantly Reduces Parameters for Skin Lesion Segmentation},
+  author={Wu, Renkai and Liu, Yinghao and Liang, Pengchen and Chang, Qing},
+  journal={arXiv preprint arXiv:2403.20035},
+  year={2024}
+}
+```
+
 ## Acknowledgement
 Thanks to [Vim](https://github.com/hustvl/Vim), [VMamba](https://github.com/MzeroMiko/VMamba), [VM-UNet](https://github.com/JCruan519/VM-UNet) and [LightM-UNet](https://github.com/MrBlankness/LightM-UNet) for their outstanding work.
