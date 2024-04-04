@@ -31,7 +31,7 @@ for idx in range(len(Tr_list)):
     Data_train_2018[idx, :,:,:] = img
 
     b = Tr_list[idx]
-    b = b[len(b)-11: len(b)-4]
+    b = b[len(b)-8: len(b)-4]
     add = ("masks/" + b +'.png')  # Masks storage folder. The Mask type should be a black and white image of an 8-bit png (0 pixels for the background and 255 pixels for the target).
     img2 = sc.imread(add)
     img2 = np.double(sc.imresize(img2, [height, width], interp='bilinear'))
