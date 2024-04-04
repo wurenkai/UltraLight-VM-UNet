@@ -62,7 +62,7 @@ pip install scikit-learn matplotlib thop h5py SimpleITK scikit-image medpy yacs
 2. Run `Prepare_PH2.py` to preprocess the data and form test sets for external validation. </br>
 
 *D. Prepare your own dataset* </br>
-1. The file format reference is as follows. (The image is a 24-bit png image. The mask is an 8-bit png image (0 pixel dots for background, 255 pixel dots for target))
+1. The file format reference is as follows. (The image is a 24-bit png image. The mask is an 8-bit png image. (0 pixel dots for background, 255 pixel dots for target))
 - './your_dataset/'
   - images
     - 0000.png
