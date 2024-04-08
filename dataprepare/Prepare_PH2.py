@@ -10,6 +10,7 @@ Reminder Created on Wed Dec 6 2023
 @author: Renkai Wu
 1.Note that the scipy package should need to be degraded. Otherwise, you need to modify the following code. ##scipy==1.2.1
 2.Add a name that displays the file to be processed. If it does not appear, the output npy file is incorrect.
+3.PH2 official data provided by the '.bmp' format, should first batch modify the suffix named '.jpg' or '.png' format before processing.
 """
 
 import h5py
