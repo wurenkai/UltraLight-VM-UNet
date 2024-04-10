@@ -17,6 +17,8 @@ ArXiv Preprint ([arXiv:2403.20035](https://arxiv.org/abs/2403.20035))
 ### *2.Parallel Vision Mamba is a winner for lightweight models.*</br>
 
 ## News🚀
+(2024.04.09) ***The second version of our paper has been uploaded to [arXiv](https://arxiv.org/abs/2403.20035) with adjustments to the description in the methods section.***
+
 (2024.04.04) ***Added preprocessing step for private datasets.***
 
 (2024.04.01) ***The project code has been uploaded.***
