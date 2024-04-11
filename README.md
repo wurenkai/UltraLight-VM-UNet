@@ -92,7 +92,7 @@ python test.py
 - After testing, you could obtain the outputs in './results/' </br>
 
 **4. Additional information.** 
-- PVM Layer can be very simply embedded into any model to reduce the overall parameters of the model.
+- PVM Layer can be very simply embedded into any model to reduce the overall parameters of the model. Please refer to [issue 7](https://github.com/wurenkai/UltraLight-VM-UNet/issues/7) for the methodology of calculating model parameters and GFLOPs.
 
 ## Citation
 If you find this repository helpful, please consider citing: </br>
