@@ -307,7 +307,7 @@ def cal_params_flops(model, size, logger):
     print('params',params/1e6)			## 打印参数量
 
     total = sum(p.numel() for p in model.parameters())
-    print("Total params: %.2fM" % (total/1e6))
+    print("Total params: %.3fM" % (total/1e6))
     logger.info(f'flops: {flops/1e9}, params: {params/1e6}, Total params: : {total/1e6:.4f}')
         
         
