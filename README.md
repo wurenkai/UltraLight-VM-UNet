@@ -57,7 +57,7 @@ Data preprocessing environment installation (python=3.7):
 conda create -n tool python=3.7
 conda activate tool
 pip install h5py
-conda install scipy==1.2.1
+conda install scipy==1.2.1  # scipy1.2.1 only supports python 3.7 and below.
 pip install pillow
 ```
 
