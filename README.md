@@ -36,7 +36,7 @@ Traditionally for improving the segmentation performance of models, most approac
 | 3 | Quadruple parallel ( Channel number ```(C/4)+(C/4)+(C/4)+(C/4)```) | 0.049M | 0.060 | 0.9091 |
 
 **0. Main Environments.** </br>
-The environment installation procedure can be followed by [VM-UNet](https://github.com/JCruan519/VM-UNet), or by following the steps below:</br>
+The environment installation procedure can be followed by [VM-UNet](https://github.com/JCruan519/VM-UNet), or by following the steps below (python=3.8):</br>
 ```
 conda create -n vmunet python=3.8
 conda activate vmunet
@@ -52,6 +52,14 @@ pip install scikit-learn matplotlib thop h5py SimpleITK scikit-image medpy yacs
 ```
 
 **1. Datasets.** </br>
+Data preprocessing environment installation (python=3.7):
+```
+conda create -n tool python=3.7
+conda activate tool
+pip install h5py
+conda install scipy==1.2.1
+pip install pillow
+```
 
 *A. ISIC2017* </br>
 1. Download the ISIC 2017 train dataset from [this](https://challenge.isic-archive.com/data) link and extract both training dataset and ground truth folders inside the `/data/dataset_isic17/`. </br>
