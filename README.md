@@ -14,7 +14,7 @@ ArXiv Preprint ([arXiv:2403.20035](https://arxiv.org/abs/2403.20035))
 
 ## 🔥🔥Highlights🔥🔥
 ### *1.The UltraLight VM-UNet has only 0.049M parameters, 0.060 GFLOPs, and a model weight file of only 229.1 KB.*</br>
-### *2.Parallel Vision Mamba is a winner for lightweight models.*</br>
+### *2.Parallel Vision Mamba (or Mamba) is a winner for lightweight models.*</br>
 
 ## News🚀
 (2024.04.09) ***The second version of our paper has been uploaded to [arXiv](https://arxiv.org/abs/2403.20035) with adjustments to the description in the methods section.***
