@@ -35,6 +35,15 @@ Traditionally for improving the segmentation performance of models, most approac
 | 2 | Double parallel ( Channel number ```(C/2)+(C/2)```) | 0.070M | 0.060 |  0.9073 |
 | 3 | Quadruple parallel ( Channel number ```(C/4)+(C/4)+(C/4)+(C/4)```) | 0.049M | 0.060 | 0.9091 |
 
+### Time consuming to train an epoch (1250 images for training and 150 images for validation) in different image sizes for different GPU:
+| Images size | 3090-24G | 4090-24G | V100-32G |
+|-----|-----|-----|-----|
+| 64 * 64 |  10~15s   |  10~15s   | 15~20s |
+| 224 * 224 | 30~35s | 15~20s |  25~30s   |
+| 256 * 256   | 35~40s | 20~25s | 30~35s |
+| 320 * 320   |  40~45s   |  25~30s   |  30~35s   |
+| 512 * 512   |  55~60s   |  45~50s   |  55~60s   |
+
 **0. Main Environments.** </br>
 The environment installation procedure can be followed by [VM-UNet](https://github.com/JCruan519/VM-UNet), or by following the steps below (python=3.8):</br>
 ```
