@@ -17,7 +17,13 @@ ArXiv Preprint ([arXiv:2403.20035](https://arxiv.org/abs/2403.20035))
 ### *2.Parallel Vision Mamba (or Mamba) is a winner for lightweight models.*</br>
 
 ## News🚀
-(2024.04.09) ***The second version of our paper has been uploaded to [arXiv](https://arxiv.org/abs/2403.20035) with adjustments to the description in the methods section.***
+(2024.04.24) ***The third version of our paper has been uploaded to [arXiv](https://arxiv.org/abs/2403.20035), adding richer experimental validation. These include not limited to:***
+- Adding key parameter analysis of Mamba variants.
+- Adding experiments on parallel connection of multiple Mamba variants.
+- Adding the exploration of plug-and-play PVM Layer.
+- Adding more ablation experiments for analysis.
+
+(2024.04.09) ***The second version of our paper has been uploaded to arXiv with adjustments to the description in the methods section.***
 
 (2024.04.04) ***Added preprocessing step for private datasets.***
 
