@@ -106,7 +106,7 @@ python test.py
 - After testing, you could obtain the outputs in './results/' </br>
 
 **4. Additional information.** 
-- PVM Layer can be very simply embedded into any model to reduce the overall parameters of the model. Please refer to [issue 7](https://github.com/wurenkai/UltraLight-VM-UNet/issues/7) for the methodology of calculating model parameters and GFLOPs. In addition to the above operations, the exact GFLOPs calculation still requires the addition of the SSM values due to the specific nature of SSM. Refer to [here](https://github.com/state-spaces/mamba/issues/110#issuecomment-1919470069) for details. 
+- PVM Layer can be very simply embedded into any model to reduce the overall parameters of the model. Please refer to [issue 7](https://github.com/wurenkai/UltraLight-VM-UNet/issues/7) for the methodology of calculating model parameters and GFLOPs. In addition to the above operations, the exact GFLOPs calculation still requires the addition of the SSM values due to the specific nature of SSM. Refer to [here](https://github.com/state-spaces/mamba/issues/110#issuecomment-1919470069) for details. However, due to the small number of UltraLight VM-UNet channels, the addition of all the SSM values has almost no effect on the results of the GFLOPs obtained through the operations described above (3 valid digits).
 ## Citation
 If you find this repository helpful, please consider citing: </br>
 ```
