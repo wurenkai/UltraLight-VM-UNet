@@ -76,7 +76,7 @@ pip install pillow
 2. Run `Prepare_ISIC2018.py` for data preparation and dividing data to train, validation and test sets. </br>
 
 *C. PH<sup>2</sup>* </br>
-1. Download the PH<sup>2</sup> dataset from [this](https://www.dropbox.com/s/k88qukc20ljnbuo/PH2Dataset.rar) link and extract both training dataset and ground truth folders inside the `/data/PH2/`. </br>
+1. Download the PH<sup>2</sup> dataset from [Dropbox](https://www.dropbox.com/s/k88qukc20ljnbuo/PH2Dataset.rar) or [Google Drive](https://drive.google.com/file/d/1AEMJKAiORlrwdDi37dRqbqXi6zLmnU3Q/view?usp=sharing) and extract both training dataset and ground truth folders inside the `/data/PH2/`. </br>
 2. Run `Prepare_PH2.py` to preprocess the data and form test sets for external validation. </br>
 
 *D. Prepare your own dataset* </br>
@@ -92,7 +92,8 @@ pip install pillow
 2. In the 'Prepare_your_dataset.py' file, change the number of training sets, validation sets and test sets you want.</br>
 3. Run 'Prepare_your_dataset.py'. </br>
 
-**2. Train the UltraLight VM-UNet.**
+**2. Train the UltraLight VM-UNet.** </br>
+You can simply run the following command to start training, or download the weights file based on this [issue](https://github.com/wurenkai/UltraLight-VM-UNet/issues/38) before training.
 ```
 python train.py
 ```
