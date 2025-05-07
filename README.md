@@ -7,7 +7,9 @@ Renkai Wu<sup>1</sup>, Yinghao Liu<sup>2</sup>, Pengchen Liang<sup>1</sup>\*, Qi
 <sup>1</sup>  Shanghai University, <sup>2</sup>  University of Shanghai for Science and Technology
 
 
-ArXiv Preprint ([arXiv:2403.20035](https://arxiv.org/abs/2403.20035))
+ArXiv Preprint ([arXiv:2403.20035](https://arxiv.org/abs/2403.20035)) 
+
+[![DOI](https://zenodo.org/badge/779160005.svg)](https://doi.org/10.5281/zenodo.15354519)
 
 
 </div>
