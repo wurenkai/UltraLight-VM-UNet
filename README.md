@@ -18,6 +18,8 @@ ArXiv Preprint ([arXiv:2403.20035](https://arxiv.org/abs/2403.20035))
 ### *2.Parallel Vision Mamba (or Mamba) is a winner for lightweight models.*</br>
 
 ## News🚀
+(2025.05.30) ***The final version has been accepted by Patterns, a Cell subsidiary journal. It will be published soon.***
+
 (2024.04.24) ***The third version of our paper has been uploaded to [arXiv](https://arxiv.org/abs/2403.20035), adding richer experimental validation. These include not limited to:***
 - Adding key parameter analysis of Mamba variants.
 - Adding experiments on parallel connection of multiple Mamba variants.
